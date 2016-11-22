@@ -1,0 +1,424 @@
+body {
+	background-color: #1E1E1E;
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+	width: 500px;
+	height: 500px;
+	display: block;
+	margin: 0 auto;
+	padding-top: -10px;
+}
+
+.container {
+	width: 100%;
+	height: 900px;
+	margin-top: 160px;
+}
+
+.nav1 {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.nav2 {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.nav2 a {
+	color: #4DB6AC;
+	font-size: 1.2em;
+}
+
+.nav2 a:hover {
+	color: white;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #4DB6AC;
+}
+
+footer {
+	margin-top: 100px;
+	background-color: #161616;
+	width: 100%;
+	height: 100px;
+	bottom: 0;
+	left: 0;
+	position: relative;
+}
+
+.footercontent {
+	text-align: center;
+	padding-top: 30px; 
+}
+
+.Home {
+	padding: 10px;
+}
+
+.about {
+	padding: 10px;
+}
+
+.contact {
+	padding: 10px;
+}
+
+.graphic{
+	padding: 10px;
+}
+
+.web {
+	padding: 10px;
+}
+
+.film {
+	padding: 10px;
+}
+
+p {
+	color: white;
+}
+
+.aboutcontent {
+	width: 700px;
+	text-align: left;
+	margin: 0 auto;
+
+}
+
+.profile {
+	margin: 0 auto;
+	width: 300px;
+	height: 300px;
+	border: 1px solid white;
+	
+}
+
+.copy {
+	color: #4DB6AC;
+	font-size: .8em;
+}
+
+.graphcontent {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.graphcontent img {
+	margin: 10px;
+}
+
+.webcontent {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.webcontent img {
+	margin: 10px;
+}
+
+.filmcontent {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.filmcontent img {
+	margin: 10px;
+}
+
+.title {
+	
+	text-align: center;
+	margin: 50px;
+}
+
+body {
+	background-color: black;
+	background-image: url(../img/aboutbgd.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.graphic-nav {
+	width: 280px;
+	height: 280px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.web-nav {
+	width: 280px;
+	height: 280px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.film-nav {
+	width: 280px;
+	height: 280px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+p.programs {
+	color: #4DB6AC;
+}
+
+.specs {
+	color: #4DB6AC;
+	font-size: 1.5em;
+}
+
+.contact-cont {
+	width: 700px;
+	text-align: left;
+	margin: 0 auto;
+	font-size: 1.3em;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.socialmedia {
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.facebook {
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+}
+
+.twitter {
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+}
+
+.instagram {
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries 1150px */
+
+@media screen and (max-width: 1550px) {
+
+	.graphic-nav {
+	width: 250px;
+	height: 250px;
+	margin-left: 50px;
+	margin-right: 50px;
+	}
+}
+
+@media screen and (max-width: 1550px) {
+
+	.web-nav {
+	width: 250px;
+	height: 250px;
+	margin-left: 50px;
+	margin-right: 50px;
+	}
+}
+
+@media screen and (max-width: 1550px) {
+
+	.film-nav {
+	width: 250px;
+	height: 250px;
+	margin-left: 50px;
+	margin-right: 50px;
+	}
+
+	.container {
+		height: 100%;
+	}
+
+	.logo {
+	width: 500px;
+	height: 500px;
+	display: block;
+	margin: 0 auto;
+	margin-top: -100px;
+}
+}
+
+/* Media Queries 1155px*/
+
+@media screen and (max-width: 1155px) {
+
+	.graphic-nav {
+	width: 200px;
+	height: 200px;
+	margin-left: 30px;
+	margin-right: 30px;
+	}
+}
+
+@media screen and (max-width: 1155px) {
+
+	.web-nav {
+	width: 200px;
+	height: 200px;
+	margin-left: 30px;
+	margin-right: 30px;
+	}
+}
+
+@media screen and (max-width: 1155px) {
+
+	.film-nav {
+	width: 200px;
+	height: 200px;
+	margin-left: 30px;
+	margin-right: 30px;
+	}
+}
+
+/*Media Queries Phones*/
+
+@media screen and (max-width: 1155px) {
+
+	.Home {
+	font-size: 2.5em;
+}
+
+body {
+	background-color: black;
+	background-image: url(../img/aboutbgd.jpg);
+	background-height: 750px;
+	background-width: 450px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.about {
+	font-size: 2.5em;
+}
+
+.contact {
+	font-size: 2.5em;
+}
+
+.graphic{
+	font-size: 2.5em;
+}
+
+.web {
+	font-size: 2.5em;
+}
+
+.film {
+	font-size: 2.5em;
+}
+
+p {
+	color: white;
+}
+
+.copy {
+	color: #4DB6AC;
+	font-size: 1.5em;
+}
+
+.footercontent {
+	height: 200px;
+	margin-top: 300px;
+}
+
+.logo {
+	width: 600px;
+	height: 600px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 300px;
+	text-align: center;
+
+}
+
+.footercontent {
+	margin-top: 100px;
+}
+
+.nav2 {
+	font-size: 2.5em;
+	margin-top: 100px;
+}
+
+.filmcontent {
+	margin-bottom: 600px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
